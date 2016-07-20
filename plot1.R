@@ -1,3 +1,10 @@
+## Read data file
+setwd("c:/coursera/ExData_Plotting1")
+twoday<-read.table("feb12.csv",header=TRUE,sep=",",
+                   colClasses=c("character","character","numeric","numeric",
+                                "numeric","numeric","numeric","numeric",
+                                "numeric"))
+
 ## Create png file
 png<-png(filename="plot1.png",width=480,height=480)
 
